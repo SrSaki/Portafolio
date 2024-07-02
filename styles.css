@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    position: sticky;
+    background-image: url("images/fondo.png");
+    color: white;
+    text-align: center;
+    overflow: auto;
+    padding-top: 0; /* Remueve el padding superior */
+}
+
+header h1 {
+    font-size: 90px;
+    margin: 0; /* Remueve el margen */
+    padding-top: 1rem; /* Ajusta la distancia desde el top */
+}
+
+header p {
+    font-size: 30px;
+    margin: 0; /* Remueve el margen */
+    padding-bottom: 1rem; /* Ajusta la distancia entre el h1 y p */
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: transparent; /* Sin fondo */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Centrar a la derecha */
+    margin: 0;
+}
+
+.CV {
+   background-color: rgb(0, 128, 255); 
+   border-radius: 30%;
+   border: 0px solid rgb(0, 0, 0);
+}
+
+nav ul li {
+    margin: 0 1rem; /* Espaciado entre los elementos del menú */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+main {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px; /* Aumenta el ancho máximo */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 0;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column; /* Cambio a columna para el título y contenido */
+    align-items: center;
+    text-align: center;
+}
+
+#inicio h1 {
+    margin-bottom: 1rem; /* Espacio entre el título y el contenido */
+}
+
+#inicio .content {
+    display: flex;
+    flex-direction: row; /* Alineación en fila */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-between; /* Espaciar entre los elementos */
+    width: 100%;
+}
+
+#inicio .content p {
+    flex: 1;
+    margin-right: 1rem; /* Espacio a la derecha del texto */
+}
+
+#inicio .content img {
+    flex: 1;
+    max-width: 30%; /* Asegurar que la imagen no exceda su contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.skill-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    margin: 1rem 0;
+}
+
+.skill-card i.material-icons {
+    font-size: 50px; /* Tamaño del ícono */
+    margin-bottom: 1rem;
+    color: #666; /* Color del ícono */
+}
+
+.skill-card h3 {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.skill-card p {
+    color: #666;
+}
+
+h2 {
+    color: #000000;
+    text-align: center;
+}
+
+.proyecto {
+    margin: 1rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
